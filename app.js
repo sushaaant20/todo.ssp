@@ -1,3 +1,5 @@
+/*This is just for practice might not work with main.html*/
+
 // Accessing a  refrence to the element by its ID
 let header = document.getElementById('header-title')
 console.log(document.childNodes)
@@ -28,14 +30,16 @@ let usingQuery = document.querySelector('.list-group')
 
 // CREATING NEW DOM ELEMENTS
 
-let newHeading = document.createElement("h1")
-console.log(newHeading)
-newHeading.className='hello'
-let h1Text = document.createTextNode("New Element inserted by DOM")
-newHeading.appendChild(h1Text)
+//let newHeading = document.createElement("h1")
+//console.log(newHeading)
+//newHeading.className='hello'
+//let h1Text = document.createTextNode("New Element inserted by DOM")
+//newHeading.appendChild(h1Text)
 
 //Inserting the above h1 tag in DOM
-let container = document.querySelector('header .container')
-let h1 = document.querySelector('header h1')
-container.insertBefore(newHeading,h1)
-newHeading.style.fontSize = '50px'
+//let container = document.querySelector('header .container')
+//let h1 = document.querySelector('header h1')
+//container.insertBefore(newHeading,h1)
+//newHeading.style.fontSize = '50px'
+
+
