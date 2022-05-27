@@ -31,5 +31,13 @@ let usingQuery = document.querySelector('.list-group')
 // issue with the code below, it is not inserting the new
 // DOM element
 let newHeading = document.createElement("h1")
+console.log(newHeading)
+newHeading.className='hello'
 let h1Text = document.createTextNode("New Element inserted by DOM")
 newHeading.appendChild(h1Text)
+
+//Inserting the above h1 tag in DOM
+let container = document.querySelector('header .container')
+let h1 = document.querySelector('header h1')
+container.insertBefore(newHeading,h1)
+newHeading.style.fontSize = '50px'
