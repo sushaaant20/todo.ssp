@@ -28,8 +28,6 @@ let usingQuery = document.querySelector('.list-group')
 
 // CREATING NEW DOM ELEMENTS
 
-// issue with the code below, it is not inserting the new
-// DOM element
 let newHeading = document.createElement("h1")
 console.log(newHeading)
 newHeading.className='hello'
